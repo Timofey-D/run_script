@@ -101,3 +101,24 @@ bool PreProcessor::thereIsChar(const char * source, const char symbol)
    return 0;
 }
 
+
+char * PreProcessor::getExecutionFile() const
+{
+    return this->execution_file;
+}
+
+
+void PreProcessor::setExecutionFile(const char * filename)
+{
+    delete[] this->execution_file;
+    int length = static_cast<int>(Utility::length(filename));
+    this->execution_file = new char[length + 1];
+    this->execution_file[length] = '\0';
+    strcpy(this->execution_file, filename);
+}
+
+
+PreProcessor::~PreProcessor()
+{
+    delete[] execution_file;
+}

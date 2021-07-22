@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdio>
 #include <cstring>
+#include "utility.h"
 #include "postProcessor.h"
 #define SIZE_OF_COMMAND 24
 
@@ -16,13 +17,13 @@ void PostProcessor::executeCommand(const char * flags, const char * execution)
     char * delete_command = new char[SIZE_OF_COMMAND]; 
     strcpy(execute_command, "./");
     bool executed = 0;
-    if (thereIsChar(flags, 'e'))
+    if (Utility::thereIsChar(flags, 'e'))
     {
         strcat(execute_command, execution);
         std::system(execute_command);
         executed = 1;
     }
-    if (thereIsChar(flags, 'd'))
+    if (Utility::thereIsChar(flags, 'd'))
     {
         if (!executed)
         {
