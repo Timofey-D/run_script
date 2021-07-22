@@ -1,5 +1,5 @@
 CMakeFiles/runcpp.dir/preProcessor.cpp.o: \
-  /usr/local/bin/Run_script/src/preProcessor.cpp \
+  /usr/local/bin/run_script/src/preProcessor.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
@@ -223,8 +223,8 @@ CMakeFiles/runcpp.dir/preProcessor.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
-  /usr/local/bin/Run_script/src/utility.h \
-  /usr/local/bin/Run_script/src/preProcessor.h \
+  /usr/local/bin/run_script/src/utility.h \
+  /usr/local/bin/run_script/src/preProcessor.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stack \

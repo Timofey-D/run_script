@@ -1,5 +1,5 @@
 CMakeFiles/runcpp.dir/utility.cpp.o: \
-  /usr/local/bin/Run_script/src/utility.cpp \
+  /usr/local/bin/run_script/src/utility.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
@@ -34,4 +34,4 @@ CMakeFiles/runcpp.dir/utility.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/strings.h \
-  /usr/local/bin/Run_script/src/utility.h
+  /usr/local/bin/run_script/src/utility.h

@@ -1,5 +1,5 @@
 sudo rm -dv CMake* cmake*
 clear
 cmake ..
-sudo cmake --build . --config
+sudo cmake --build .
 sudo mv runcpp ../../

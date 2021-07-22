@@ -1,4 +1,4 @@
-# Install script for directory: /usr/local/bin/Run_script/src
+# Install script for directory: /usr/local/bin/run_script/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/usr/local/bin/Run_script/src/Build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/usr/local/bin/run_script/src/Build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

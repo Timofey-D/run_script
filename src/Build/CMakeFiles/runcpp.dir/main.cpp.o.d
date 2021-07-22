@@ -1,4 +1,4 @@
-CMakeFiles/runcpp.dir/main.cpp.o: /usr/local/bin/Run_script/src/main.cpp \
+CMakeFiles/runcpp.dir/main.cpp.o: /usr/local/bin/run_script/src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
@@ -222,19 +222,19 @@ CMakeFiles/runcpp.dir/main.cpp.o: /usr/local/bin/Run_script/src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
-  /usr/local/bin/Run_script/src/main.h \
+  /usr/local/bin/run_script/src/main.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip \
-  /usr/local/bin/Run_script/src/input.h \
-  /usr/local/bin/Run_script/src/utility.h \
-  /usr/local/bin/Run_script/src/preProcessor.h \
-  /usr/local/bin/Run_script/src/compilation.h \
+  /usr/local/bin/run_script/src/input.h \
+  /usr/local/bin/run_script/src/utility.h \
+  /usr/local/bin/run_script/src/preProcessor.h \
+  /usr/local/bin/run_script/src/compilation.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
-  /usr/local/bin/Run_script/src/postProcessor.h
+  /usr/local/bin/run_script/src/postProcessor.h

@@ -1,6 +1,6 @@
 CMakeFiles/runcpp.dir/input.cpp.o: \
-  /usr/local/bin/Run_script/src/input.cpp \
-  /usr/local/bin/Run_script/src/input.h \
+  /usr/local/bin/run_script/src/input.cpp \
+  /usr/local/bin/run_script/src/input.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
@@ -45,7 +45,7 @@ CMakeFiles/runcpp.dir/input.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uintmax_t.h \
-  /usr/local/bin/Run_script/src/utility.h \
+  /usr/local/bin/run_script/src/utility.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \

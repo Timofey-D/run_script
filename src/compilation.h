@@ -9,7 +9,6 @@ class Compilation
     public:
         Compilation(const char * source_code, const char * execution, const int & flag);
     private:
-
         const std::map<int, const char *> compile_command = 
         {
             {0, "g++ "},
