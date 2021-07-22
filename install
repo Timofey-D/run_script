@@ -1,10 +1,11 @@
 #!/bin/bash
 cd ./src/Build
 sudo ./compile_project.sh
-SUCCESS="echo $?"
-if [[ $SUCCESS == 0 ]];
+SUCCESS=$(echo $?)
+if [ $SUCCESS -eq 0 ]
 then
-    echo "Something went wrong!"
-else
     echo "Script was successful installed!"
+else
+    echo "Something went wrong!"
 fi
+echo "You have to move the runcpp file to a root directory!"
