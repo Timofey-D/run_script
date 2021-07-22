@@ -18,7 +18,7 @@ Input::Input(const char * input[], int length)
 
     for (int i = 1; i < length; i++)
     {
-        std::regex file_regex("[0-9a-zA-Z]*\\.(cpp|c)");
+        std::regex file_regex("([a-zA-Z0-9\-\_\.])+.(cpp|c)");
         std::regex compile_flags("-[0 | 1 | 2 | 3]?");
         std::regex command_flags("-[d | e | n | p | w]*");
         if (std::regex_match(input[i], file_regex))
@@ -87,4 +87,76 @@ bool Input::checkSourceCode(const char * source_code)
 {
     std::fstream file(source_code);
     return file.good();
+}
+
+
+// Getters block
+char * Input::getSourceCode() const
+{
+    return this->source_code;
+}
+
+
+char * Input::getFileFlags() const
+{
+    return this->file_flags;
+}
+
+
+int Input::getCompileFlag() const
+{
+    return this->compile_flag;
+}
+
+
+// Setters block
+void Input::setSourceCode(char * source_code)
+{
+    int length = static_cast<int>(Utility::length(source_code));
+    this->source_code = new char[length + 1];
+    this->source_code[length] = '\0';
+    strcpy(this->source_code, source_code);
+}
+
+
+void Input::setFileFlags(char * file_flags)
+{
+    int length = static_cast<int>(Utility::length(file_flags));
+    this->file_flags = new char[length + 1];
+    this->file_flags[length] = '\0';
+    strcpy(this->file_flags, file_flags);
+}
+
+
+void Input::setCompileFlag(int compile_flag)
+{
+    this->compile_flag = compile_flag;
+}
+
+
+
+Input & Input::operator=(const Input & other)
+{
+   if (this == &other)
+   {
+       return * this;
+   }
+   this->setSourceCode(other.getSourceCode());
+   this->setCompileFlag(other.getCompileFlag());
+   this->setFileFlags(other.getFileFlags());
+   return * this;
+}
+
+
+// Destructor
+Input::~Input()
+{
+    if (source_code == nullptr)
+    {
+        delete[] source_code;
+    }
+    if (file_flags == nullptr)
+    {
+        delete[] file_flags;
+    }
 }
